@@ -13,7 +13,7 @@ struct ContentView: View {
             HStack(alignment: .center, spacing: 8) {
                 
                 HStack(spacing: 2) {
-                    TextField("Value", value: $value, format: .number.precision(.fractionLength(1)))
+                    TextField("0.0", value: $value, format: .number.precision(.fractionLength(1)))
                         .font(.title.bold())
                         .fontDesign(.rounded)
                         .keyboardType(.decimalPad)
